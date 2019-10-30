@@ -14,3 +14,8 @@ run_list 'node_3::default'
 
 # Specify a custom source for a single cookbook:
 cookbook 'node_3', path: '.'
+
+# # Import cookbooks from supermarket
+## Just don't... use it in the metadata
+# cookbook 'apt'
+# cookbook 'nodejs', '~> 6.0.0'
