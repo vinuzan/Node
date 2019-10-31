@@ -33,3 +33,5 @@ Are provisioning script.
 
 #### Creating, converge, setup, verify and destroy:
     $kitchen test
+
+  Test1
